@@ -1,0 +1,98 @@
+@import './settings/font';
+@import './settings/media';
+@import './settings/var';
+@import './settings/reset';
+
+hr {
+    border: 1px solid #E6E6E6;
+}
+
+h2,
+h3,
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    color: $dark-teal;
+}
+
+h2 {
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+h3 {
+    line-height: 120%;
+}
+
+p {
+    line-height: 150%;
+}
+
+/*  Main block with spoiler */
+
+/*
+.block-spoiler>div.spoiler:not(.active) {
+    display: none;
+}
+*/
+
+
+/*  Head spoiler    */
+
+.head-spoiler {
+    position: relative;
+
+    .btn-text {
+        text-align: left;
+        width: 90%;
+
+        h3:hover {
+            color: $sibur-dna;
+        }
+    }
+
+    .btn-text.active h3 {
+        color: $sibur-dna;
+    }
+
+    .btn-plus {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+
+    .btn-plus.active {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+}
+
+
+/*  Body spoiler    */
+
+
+.spoiler {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
+}

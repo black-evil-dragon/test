@@ -1,0 +1,82 @@
+@media screen and (max-width: 1920px) {
+
+    /* Main */
+    html,
+    body {
+        font-size: 20px;
+    }
+
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    h2.title-info {
+        margin: 4rem 0;
+    }
+
+    h3 {
+        font-size: 1.8rem
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .block-info {
+        margin: 5rem 8rem;
+    }
+
+    /* Block with spoiler */
+
+    .head-spoiler {
+        .btn-text {
+            h3 {
+                margin: 1.5rem 0;
+            }
+        }
+
+    }
+
+
+    /*  Body spoiler    */
+
+    .spoiler {
+        p {
+            margin: 0 0 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body, html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body, html {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 2.8rem;
+    }
+    .block-info {
+        margin: 4rem 2.6rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body, html {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    .block-info {
+        margin: 4rem 2.6rem;
+    }
+}

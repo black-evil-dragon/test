@@ -13,14 +13,13 @@ window.onload = function () {
 
         const spoiler = this.parentElement.parentElement.children[1]
 
-        if(spoiler.style.maxHeight){
+        if (spoiler.style.maxHeight) {
             spoiler.style.maxHeight = null
         } else {
             spoiler.style.height = 100 + '%'
             spoiler.style.maxHeight = spoiler.scrollHeight + 'px'
         }
     }
-
 
     for (var i = 0; i < btn_text.length; i++) {
         btn_text[i].onclick = showSpoiler;

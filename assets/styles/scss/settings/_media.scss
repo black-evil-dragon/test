@@ -12,11 +12,12 @@
     }
 
     h2.title-info {
-        margin: 4rem 0;
+        margin: 0 0 4rem 0;
     }
 
     h3 {
-        font-size: 1.8rem
+        font-size: 1.8rem;
+        margin: 1.5rem 0;
     }
 
     p {
@@ -28,16 +29,6 @@
     }
 
     /* Block with spoiler */
-
-    .head-spoiler {
-        .btn-text {
-            h3 {
-                margin: 1.5rem 0;
-            }
-        }
-
-    }
-
 
     /*  Body spoiler    */
 
@@ -52,8 +43,30 @@
     body, html {
         font-size: 15px;
     }
+    h3 {
+        margin: 1.6rem 0 1.33rem; /*24px 0 20px*/
+    }
+    .block-info {
+        margin: 5.33rem 8rem; /*80px 120px*/
+    }
 }
+@media screen and (max-width: 1280px) {
+    body, html {
+        font-size: 14px;
+    }
 
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    .block-info {
+        margin: 5rem 7.6rem;
+    }
+}
 @media screen and (max-width: 768px) {
     body, html {
         font-size: 15px;
@@ -61,8 +74,14 @@
     h2 {
         font-size: 2.8rem;
     }
+    h2.title-info {
+        margin: 0 0 3.3rem 0;
+    }
+    h3 {
+        margin: 1.6rem 0 1.06rem;
+    }
     .block-info {
-        margin: 4rem 2.6rem;
+        margin: 4rem 2.65rem;
     }
 }
 
